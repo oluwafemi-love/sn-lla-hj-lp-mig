@@ -36,6 +36,12 @@
 
   // TOOLTIP
   $(".social-links a").tooltip();
+
+  //Show Modal ON Load
+  $(document).ready(function(){
+    $("#exampleModal").modal('show');
+});
+
 })(jQuery);
 
 // const myModal = new bootstrap.Modal(document.getElementById('exampleModal'), options);
